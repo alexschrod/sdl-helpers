@@ -1,0 +1,15 @@
+[package]
+name = "sdl-helpers"
+version = "0.1.0"
+authors = ["Alexander Krivács Schrøder <alexschrod@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[dependencies.sdl2]
+    version = "^0"
+    default-features = false
+
+[features]
+fonts = ["sdl2/ttf"]
+unsafe_textures = ["sdl2/unsafe_textures"]
